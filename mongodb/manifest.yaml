@@ -20,7 +20,7 @@ metadata:
   name: mongodb-headless
   namespace: roboshop
 spec:
-  clusterIP: none
+  clusterIP: None
   selector:
     project: roboshop
     component: mongodb
@@ -66,3 +66,5 @@ spec:
       resources:
         requests:
           storage: 1Gi
+
+
